@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/card">
+
+    <fragment
+        android:id="@+id/card"
+        android:name="com.example.gamecards.view.factionhorde.FactionHordeFragment"
+        android:label="CardFragment"
+        tools:layout="@layout/fragment_faction_horde">
+        <action
+            android:id="@+id/action_cardFragment_to_categorySelectedFragment"
+            app:destination="@id/categorySelected" />
+    </fragment>
+    <fragment
+        android:id="@+id/categorySelected"
+        android:name="com.example.gamecards.view.cardselected.CardSelectedFragment"
+        android:label="CardSelected"
+        tools:layout="@layout/fragment_card_selected">
+        <argument
+            android:name="cardId"
+            app:argType="string" />
+    </fragment>
+</navigation>

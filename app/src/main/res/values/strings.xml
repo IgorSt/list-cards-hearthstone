@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Game Cards</string>
+
+    <string name="what_do_you_searching">O que você está procurando?</string>
+
+    <string-array name="array_options">
+        <item></item>
+        <item>classes</item>
+        <item>types</item>
+        <item>races</item>
+        <item>sets</item>
+    </string-array>
+
+    <string name="cards">Cards</string>
+
+    <string name="classes">Classes</string>
+    <string name="types">Types</string>
+    <string name="races">Races</string>
+    <string name="sets">Sets</string>
+
+    <string name="error_network">Desculpe, algo deu errado</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="back">Voltar</string>
+    
+    <string name="attack">Ataque: </string>
+    <string name="cost">Custo: </string>
+    <string name="health">Saúde: </string>
+</resources>
